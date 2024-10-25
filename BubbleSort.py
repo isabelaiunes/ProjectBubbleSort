@@ -14,3 +14,5 @@ list = [3, 6, 12, 7]
 # In the third pass, the algorithm compares 12 and 7 and swaps them, because 7 < 12 #
 list = [3, 6, 7, 12]
 
+# Coding #
+list = [6, 7, 8, 3, 10, 19, 4, 1, 0, 61, 30, 16, 17, 82, 29, 34, 43, 21, 11, 39, 56, 67, 12]
