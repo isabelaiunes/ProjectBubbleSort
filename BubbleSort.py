@@ -22,4 +22,8 @@ def bubble_sort(arr):
     for i in range(n):
         # For each element j in the array (Loop2)
         for j in range(0, n - i - 1):
-            
+             # If element i is greater than element j (Conditional)
+            if arr[j] > arr[j + 1]:
+                # Swap elements i and j
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr 
