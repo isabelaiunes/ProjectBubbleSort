@@ -27,3 +27,5 @@ def bubble_sort(arr):
                 # Swap elements i and j
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
     return arr 
+
+print(bubble_sort(list))
