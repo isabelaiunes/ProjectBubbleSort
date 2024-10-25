@@ -18,4 +18,8 @@ list = [3, 6, 7, 12]
 list = [6, 7, 8, 3, 10, 19, 4, 1, 0, 61, 30, 16, 17, 82, 29, 34, 43, 21, 11, 39, 56, 67, 12]
 def bubble_sort(arr):
     n = len(arr)
-    
+     # For each element i in the array (Loop1)
+    for i in range(n):
+        # For each element j in the array (Loop2)
+        for j in range(0, n - i - 1):
+            
